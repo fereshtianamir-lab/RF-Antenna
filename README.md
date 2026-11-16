@@ -1,10 +1,11 @@
 # Antenna Design Portfolio
 
-RF and antenna design models simulated in ANSYS HFSS.
+RF and antenna design models simulated in ANSYS HFSS, including Ka-band phased arrays for satellite communications.
 
 - [Antenna Design](Antenna-Design/)
   - [HFSS Simulations](Antenna-Design/HFSS-Simulations/)
-    - [Ku-band dual-pol stacked patch array (1×10)](Antenna-Design/HFSS-Simulations/Ku-Band-Dual-Pol-Patch-Array/) – 11–14 GHz (Ku)
+    - [Ka-band CP phased array 16×16, satellite communications](Antenna-Design/HFSS-Simulations/Ka-Band-CP-Array-16x16/) – 16–21 GHz (Ka)
+    - [Ka-band CP phased array 8×8, satellite communications](Antenna-Design/HFSS-Simulations/Ka-Band-CP-Array-8x8/) – 16–21 GHz (Ka)
     - [SIW-fed end-fire antenna](Antenna-Design/HFSS-Simulations/SIW-Antenna/) – 7–13 GHz (X)
     - [Axial-mode helix (RHCP)](Antenna-Design/HFSS-Simulations/Helix-Antenna/) – 1.15–1.33 GHz (L)
     - [Log-periodic dipole array](Antenna-Design/HFSS-Simulations/Log-Periodic-Dipole-Array/) – 54–216 MHz (VHF)
