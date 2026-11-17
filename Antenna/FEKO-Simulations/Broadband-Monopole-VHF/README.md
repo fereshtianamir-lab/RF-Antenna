@@ -20,3 +20,13 @@ The tapered (V-shaped) feed region of the flat plate gives a much wider bandwidt
 | Peak directivity | 5.1–6.8 dBi (maximum at the horizon, vertical polarization) |
 | Simulated outputs | Input impedance, S11, elevation and azimuth patterns |
 | Year of design | 2016 (FEKO Suite 7.0) |
+
+## Source file (download to simulate)
+
+| File | Description |
+|---|---|
+| [`finish.cfx`](finish.cfx) | CADFEKO model (FEKO 7.0) |
+| [`finish.cfm`](finish.cfm) | Exported CADFEKO mesh (gzip-compressed text with triangle coordinates) |
+| [`finish.pre`](finish.pre) | EDITFEKO solver input |
+
+Open with Altair FEKO (CADFEKO 7.0 or newer); open the .cfx and run the solver to regenerate results. ANSYS HFSS cannot open this format directly; export the geometry as STEP from the original tool to reuse it in HFSS.
