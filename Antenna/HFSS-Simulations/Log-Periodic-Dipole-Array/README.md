@@ -20,3 +20,11 @@ Gain and impedance stay nearly constant over a 4:1 bandwidth.
 | Frequency range | 54–216 MHz, VHF; adaptive mesh at 130 MHz |
 | Simulated outputs | VSWR, total gain |
 | Year of design | 2015 (ANSYS Electronics Desktop 2016 R2) |
+
+## Source file (download to simulate)
+
+| File | Description |
+|---|---|
+| [`lpda.aedt`](lpda.aedt) | ANSYS Electronics Desktop project (ACIS geometry) |
+
+Open it with ANSYS HFSS / Electronics Desktop. The geometry uses the ACIS kernel, so AEDT 2025 R1 and later cannot open it directly: open and save it once in AEDT 2024 R2 (or earlier) to convert it to Parasolid. Simulation results are not included; re-run the analysis setup to regenerate them.
