@@ -17,7 +17,7 @@ RF antenna and transmission-line models simulated in ANSYS HFSS, CST Microwave S
     - [E-plane sectoral horn](Antenna/FEKO-Simulations/E-Plane-Sectoral-Horn/) – 9.5–10.5 GHz (X)
     - [H-plane sectoral horn](Antenna/FEKO-Simulations/H-Plane-Sectoral-Horn/) – 9.5–10.5 GHz (X)
     - [Sleeve dipole above ground](Antenna/FEKO-Simulations/Sleeve-Dipole-X-Band/) – 7.6–12 GHz (X)
-    - [RHCP end-fire antenna](Antenna/FEKO-Simulations/RHCP-Antenna-L-Band/) – 0.8–1.3 GHz (L)
+    - [Conical spiral antenna, L-band](Antenna/FEKO-Simulations/Conical-Spiral-Antenna-L-Band/) – 0.8–1.3 GHz (L)
     - [One-wavelength loop](Antenna/FEKO-Simulations/One-Wavelength-Loop/) – 1.0 GHz (UHF/L)
     - [Broadband planar monopole](Antenna/FEKO-Simulations/Broadband-Monopole-VHF/) – 150–340 MHz (VHF)
 - [Transmission Line](Transmission-Line/)
