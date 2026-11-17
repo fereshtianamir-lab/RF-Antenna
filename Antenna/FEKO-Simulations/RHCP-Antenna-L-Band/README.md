@@ -1,4 +1,4 @@
-# RHCP End-Fire Antenna, 0.8–1.3 GHz (FEKO)
+# Conical Spiral Antenna, 0.8–1.3 GHz (FEKO)
 
 [← Back to FEKO Simulations](../README.md)
 
