@@ -20,3 +20,11 @@ Circular polarization makes the link insensitive to antenna orientation and to F
 | Electrical size | Circumference ≈ 0.8 λ at 1.24 GHz (axial-mode region) |
 | Simulated outputs | VSWR, total and RHCP gain, axial ratio |
 | Year of design | 2014 (HFSS 14) |
+
+## Source file (download to simulate)
+
+| File | Description |
+|---|---|
+| [`helix-mom.hfss`](helix-mom.hfss) | legacy HFSS project (HFSS 14/15, ACIS geometry) |
+
+Open it with ANSYS HFSS / Electronics Desktop. The geometry uses the ACIS kernel, so AEDT 2025 R1 and later cannot open it directly: open and save it once in AEDT 2024 R2 (or earlier) to convert it to Parasolid. Simulation results are not included; re-run the analysis setup to regenerate them.
