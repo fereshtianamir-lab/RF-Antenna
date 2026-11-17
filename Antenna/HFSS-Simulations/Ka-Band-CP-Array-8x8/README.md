@@ -22,3 +22,11 @@ The model is set up to check performance at wide scan angles (up to θ = 60°).
 | Frequency range | 16–21 GHz, Ka-band satellite downlink (spans upper Ku and lower K in IEEE terms); centre 18.5 GHz |
 | Scan setting | θ = 60°, φ = 90° |
 | Year of design | 2021 (ANSYS Electronics Desktop 2020 R2) |
+
+## Source file (download to simulate)
+
+| File | Description |
+|---|---|
+| [`Array_64_elements.aedt`](Array_64_elements.aedt) | ANSYS Electronics Desktop project (ACIS geometry) |
+
+Open it with ANSYS HFSS / Electronics Desktop. The geometry uses the ACIS kernel, so AEDT 2025 R1 and later cannot open it directly: open and save it once in AEDT 2024 R2 (or earlier) to convert it to Parasolid. Simulation results are not included; re-run the analysis setup to regenerate them.
