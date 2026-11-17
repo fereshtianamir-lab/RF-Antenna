@@ -3,7 +3,7 @@
 [← Back to Antenna](../README.md)
 
 Antenna models built in ANSYS HFSS / Electronics Desktop, including two Ka-band phased arrays for satellite communications.
-Each folder has images of the model and a README with its full specifications.
+Each folder has images of the model, a README with its full specifications, and the original HFSS project file (`.hfss` or `.aedt`) so you can download it and re-run the simulation.
 
 | Model | Type | Frequency (band) | Solver | Year |
 |---|---|---|---|---|
