@@ -21,3 +21,11 @@ It keeps a stable input impedance over several octaves with a simple disc-and-co
 | Frequency range | 1–3 GHz (L and S bands), centre 2 GHz |
 | Simulated outputs | VSWR, maximum gain vs frequency |
 | Year of design | Model from the MAGUS Antenna Designer template (2009), saved in CST 2016 |
+
+## Source file (download to simulate)
+
+| File | Description |
+|---|---|
+| [`discone.cst`](discone.cst) | CST Studio Suite project (CST 2016); results not included |
+
+Open with CST Studio Suite (2016 or newer). ANSYS HFSS cannot open this format directly; export the geometry as STEP from the original tool to reuse it in HFSS.
