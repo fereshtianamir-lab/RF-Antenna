@@ -23,3 +23,11 @@ Corner-truncated stacked patches give circular polarization, and progressive-pha
 | Scan setting | Broadside (θ = 0°), parametric scan variables included |
 | Design variants in the project | Single element (two orientations, the second rotated 45°), 16 × 16 array |
 | Year of design | 2021 (ANSYS Electronics Desktop 2020 R2) |
+
+## Source file (download to simulate)
+
+| File | Description |
+|---|---|
+| [`Array_Ka-Band.aedt`](Array_Ka-Band.aedt) | ANSYS Electronics Desktop project (ACIS geometry) |
+
+Open it with ANSYS HFSS / Electronics Desktop. The geometry uses the ACIS kernel, so AEDT 2025 R1 and later cannot open it directly: open and save it once in AEDT 2024 R2 (or earlier) to convert it to Parasolid. Simulation results are not included; re-run the analysis setup to regenerate them.
