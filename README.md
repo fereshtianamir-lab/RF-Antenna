@@ -24,4 +24,8 @@ RF antenna and transmission-line models simulated in ANSYS HFSS, CST Microwave S
   - [Coaxial line](Transmission-Line/Coaxial-Line/) – 1–5 GHz (L/S/C)
   - [Rectangular waveguide](Transmission-Line/Rectangular-Waveguide/) – 2–10 GHz (S/C/X)
 
+## Download and simulate
+
+Every model folder includes the original simulation project file (HFSS `.hfss`/`.aedt`, CST `.cst` or FEKO `.cfx`). Open the file on GitHub and click **Download raw file**, or use **Code → Download ZIP** to get everything. Each README's *Source file* section says which software version opens it. Results are not included; re-run the analysis to regenerate them.
+
 <p align="center"><img src="Antenna/HFSS-Simulations/SIW-Antenna/siw_hfss_preview.png" width="320" alt="SIW antenna HFSS model"></p>
