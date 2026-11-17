@@ -2,6 +2,7 @@
 
 [← Back to FEKO Simulations](../README.md)
 
+![3D geometry from the CADFEKO model](conical_log_spiral_3d.png)
 ![Simulated results](results.png)
 
 **Application:** A circularly polarized, wideband conical spiral antenna for L-band satellite links, GNSS and telemetry, where orientation-independent reception is needed.
@@ -11,7 +12,8 @@ The simulated performance shows right-hand circular polarization (axial ratio �
 
 | Parameter | Value |
 |---|---|
-| Structure | Conical spiral antenna |
+| Structure | Two-arm conical log-spiral antenna |
+| Overall dimensions | Base Ø 187 mm, apex Ø 29 mm, height 602 mm, 12.9 turns |
 | Mesh | FEKO MoM, 2588 metallic triangles, total metal area 0.18 m² |
 | Excitation | 50 Ω edge voltage source; input impedance ≈ 90–100 Ω |
 | Frequency range | 0.8–1.3 GHz (upper UHF / L band) |
