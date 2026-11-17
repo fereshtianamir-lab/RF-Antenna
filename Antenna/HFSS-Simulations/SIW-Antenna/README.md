@@ -22,3 +22,11 @@ The substrate-integrated-waveguide (SIW) feed gives low loss, easy integration w
 | SIW mode range | TE10 cutoff ≈ 7.0 GHz, TE20 cutoff ≈ 14.1 GHz (single-mode over the sweep) |
 | Simulated outputs | S11, VSWR, realized gain vs frequency, 2D and 3D radiation patterns |
 | Year of design | 2018 (last saved in ANSYS Electronics Desktop 2020 R2) |
+
+## Source file (download to simulate)
+
+| File | Description |
+|---|---|
+| [`SWI.aedt`](SWI.aedt) | ANSYS Electronics Desktop project (ACIS geometry) |
+
+Open it with ANSYS HFSS / Electronics Desktop. The geometry uses the ACIS kernel, so AEDT 2025 R1 and later cannot open it directly: open and save it once in AEDT 2024 R2 (or earlier) to convert it to Parasolid. Simulation results are not included; re-run the analysis setup to regenerate them.
