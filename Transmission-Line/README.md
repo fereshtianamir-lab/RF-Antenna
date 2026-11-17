@@ -1,8 +1,8 @@
-# Transmission Line (HFSS)
+# Transmission Line
 
 [← Back to repository home](../README.md)
 
-RF transmission-line models simulated in ANSYS HFSS. Each folder has images of the model and a README with its full specifications.
+RF transmission-line models simulated in ANSYS HFSS. Each folder has images of the model, a README with its full specifications, and the original HFSS project file (`.hfss`) so you can download it and re-run the simulation.
 
 | Model | Type | Frequency (band) | Solver | Year |
 |---|---|---|---|---|
