@@ -4,8 +4,9 @@
 
 > **Satellite communications:** designed for Ka-band satcom user terminals.
 
-![16x16 array, HFSS model preview](array_16x16_hfss_preview.png)
-![Element layout and stack-up](element_layout_stackup.png)
+![16x16 array, HFSS model (175 mm × 175 mm)](array_16x16_hfss_model.jpg)
+![Stacked-patch element: RO4003 / foam / RO4003 stack-up](element_stackup_3d.png)
+![Simulated gain patterns for different beam-steering angles (peak ≈ 31.5 dB at broadside)](beam_steering_gain_patterns.jpg)
 
 **Application:** A large flat-panel phased array for Ka-band satellite-communication terminals (satcom-on-the-move, LEO/GEO user terminals, receive at about 17.7–21.2 GHz).
 Corner-truncated stacked patches give circular polarization, and progressive-phase excitation steers the beam electronically.
@@ -18,9 +19,9 @@ Corner-truncated stacked patches give circular polarization, and progressive-pha
 | Stack-up | Rogers RO4003 0.5 mm (εr 3.55) / foam 0.5 mm / Rogers RO4003 0.5 mm; total ≈ 1.6 mm |
 | Unit cell | 11 × 11 mm (≈ 0.68 λ at 18.5 GHz) |
 | Array | 16 × 16 = 256 elements, finite-array (unit cell + lattice-pair) model with scan-phase excitation |
-| Overall dimensions | ≈ 176 × 176 × 1.6 mm aperture |
+| Overall dimensions | ≈ 175 × 175 × 1.6 mm aperture |
 | Frequency range | 16–21 GHz, Ka-band satellite downlink (spans upper Ku and lower K in IEEE terms); centre 18.5 GHz |
-| Scan setting | Broadside (θ = 0°), parametric scan variables included |
+| Scan setting | Broadside (θ = 0°) plus parametric scan variables; simulated beam steering over a wide angular range, with ≈ 31.5 dB peak gain at broadside |
 | Design variants in the project | Single element (two orientations, the second rotated 45°), 16 × 16 array |
 | Year of design | 2021 (ANSYS Electronics Desktop 2020 R2) |
 
