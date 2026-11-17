@@ -23,3 +23,11 @@ Coaxial lines like this are standard RF interconnects and antenna feed lines in 
 | Year of design | 2014 (HFSS 14) |
 
 Z₀ values come from Z₀ = (60/√εr)·ln(R_outer/R_inner).
+
+## Source file (download to simulate)
+
+| File | Description |
+|---|---|
+| [`coaxial_line.hfss`](coaxial_line.hfss) | legacy HFSS project (HFSS 14/15, ACIS geometry) |
+
+Open it with ANSYS HFSS / Electronics Desktop. The geometry uses the ACIS kernel, so AEDT 2025 R1 and later cannot open it directly: open and save it once in AEDT 2024 R2 (or earlier) to convert it to Parasolid. Simulation results are not included; re-run the analysis setup to regenerate them.
